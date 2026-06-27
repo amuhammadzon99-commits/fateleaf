@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tea-green: #A3B18A;
+  --color-tea-dark: #344E41;
+  --color-tea-gold: #DDA15E;
+  --color-tea-light: #FEFAE0;
+}
+
+@layer base {
+  body {
+    @apply bg-tea-light text-tea-dark font-sans;
+  }
+} 
